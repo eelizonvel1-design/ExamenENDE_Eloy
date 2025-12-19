@@ -5,11 +5,11 @@ private String matricula;
 private String marca;
 private String modelo;
 
-private double preciohora;
+private String preciohora;
 
 
 
-public Vehiculo(String matricula, String marca, String modelo, double preciohora) {
+public Vehiculo(String matricula, String marca, String modelo, String preciohora) {
 	super();
 	this.matricula = matricula;
 	this.marca = marca;
@@ -41,11 +41,11 @@ public void setModelo(String modelo) {
 	this.modelo = modelo;
 }
 
-public double getPreciohora() {
+public String getPreciohora() {
 	return preciohora;
 }
 
-public void setPreciohora(double preciohora) {
+public void setPreciohora(String preciohora) {
 	this.preciohora = preciohora;
 }
 
