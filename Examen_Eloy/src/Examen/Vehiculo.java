@@ -1,5 +1,11 @@
 package Examen;
 
+/**
+ * Clase que representa un vheiculo con una matricula una marca un modelo y el preciohora
+ * 
+ * @author eloye
+ */
+
 public class Vehiculo {
 private String matricula;
 private String marca;
@@ -7,7 +13,15 @@ private String modelo;
 
 private String preciohora;
 
-
+/**
+ * Metodo constructor que instancia el objeto vvehiculo
+ * @param matricula
+ * @param marca
+ * @param modelo
+ * @param preciohora
+ * 
+ * @author eloye
+ */
 
 public Vehiculo(String matricula, String marca, String modelo, String preciohora) {
 	super();
@@ -16,6 +30,14 @@ public Vehiculo(String matricula, String marca, String modelo, String preciohora
 	this.modelo = modelo;
 	this.preciohora = preciohora;
 }
+
+/**
+ * Metodos geters and seters
+ *
+ * @return
+ * 
+ * @author eloye
+ */
 
 public String getMatricula() {
 	return matricula;
@@ -49,6 +71,12 @@ public void setPreciohora(String preciohora) {
 	this.preciohora = preciohora;
 }
 
+
+/**
+ * Metodo toString
+ * 
+ * @author eloye
+ */
 @Override
 public String toString() {
 	return "Vehiculo [matricula=" + matricula + ", marca=" + marca + ", modelo=" + modelo + ", preciohora=" + preciohora
